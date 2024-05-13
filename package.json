@@ -1,0 +1,38 @@
+{
+  "name": "@anuragroy/store",
+  "version": "1.0.0",
+  "description": "A simple reactive store",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "lint": "tsc",
+    "build": "tsup src/index.ts --format cjs,esm --dts"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.27.1",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anurag-roy/store.git"
+  },
+  "keywords": [
+    "xstate",
+    "store"
+  ],
+  "author": "Anurag Roy <anuragroy@duck.com> (https://anuragroy.dev)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anurag-roy/store/issues"
+  },
+  "homepage": "https://github.com/anurag-roy/store#readme",
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  }
+}
