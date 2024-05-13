@@ -34,6 +34,7 @@
   "homepage": "https://github.com/anurag-roy/store#readme",
   "publishConfig": {
     "access": "public",
-    "provenance": true
+    "provenance": true,
+    "registry": "https://npm.pkg.github.com"
   }
 }
